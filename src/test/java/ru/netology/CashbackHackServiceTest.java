@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
     CashbackHackService cash = new CashbackHackService();
 
     @Test
@@ -39,6 +39,7 @@ class CashbackHackServiceTest {
         int expected = 500;
         Assert.assertEquals(actual, expected);
     }
+
     @Test
     public void remainLimitValueCheck() {
 
